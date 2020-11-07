@@ -60,7 +60,7 @@ console.log(frutas.join(" - "));
 
 ===== Fim do conteúdo sobre arrays */
 
-
+/*====== Dicionário =======
 // Dicionário de arrays
 var frutas = [{
     nome: "Maçã",
@@ -73,3 +73,40 @@ var frutas = [{
 
 // Exibe como saída Vermelha
 console.log(frutas[1].cor);
+
+======= Fim do conteúdo da aula 2 =====*/
+
+/* ========= Date ============
+var d = new Date;
+// Exibe os dados completos de data, hora e minutos atuais do sistema
+alert(d);
+// Exibe os minutos atuais do sistema
+alert(d.getMinutes());
+=========================*/
+
+
+/* ===== Laços de repetição  =====
+var count;
+
+for (count=0; count < 5; count++) {
+    console.log(count);
+}
+
+var count = 0;
+
+while (count < 5) {
+    console.log(count);
+    count++;
+}
+=====================*/
+
+/* ===== Condicionais ======
+// Com o comando prompt, é possível fazer com que o browser exiba uma pergunta quando a página é carregada
+var idade = prompt("Qual é a sua idade ?");
+
+if (idade >= 18) {
+    alert("Acesso permitido.");
+} else {
+    alert("Acesso proibido, usuário menor de idade.");
+}
+==================== */

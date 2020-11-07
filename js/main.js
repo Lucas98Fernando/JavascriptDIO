@@ -140,3 +140,34 @@ function validar(idade) {
 idade = prompt("Qual é a sua idade ?");
 alert(validar(idade));
 ================================*/
+
+// Função que insere um texto dentro da tag <a> com id="resposta", no arquivo index.html
+function btn() {
+    document.getElementById("resposta").innerHTML = "Você clicou no botão !";
+}
+
+// Função de redirecionamento para outra páginas
+function redirecionar() {
+    // window.open("https://github.com/"); // Abre o link em outra janela
+    window.location.href = "https://github.com/"; // Abre o link na mesma janela
+}
+
+// Função para mudar o texto quando passa o mouse
+function mudar() {
+    // document.getElementById("cor").style.color = "red";
+    document.getElementById("texto").innerHTML = "Você passou o mouse aqui !";
+}
+
+// Função para voltar para o texto original quando tirar o mouse
+function voltar() {
+    document.getElementById("texto").innerHTML = "Passe o mouse aqui !";
+}
+
+function carregar() {
+    alert("A página foi carregada utilizando o onload");
+}
+
+// Sempre que mudar o valor selecionado no select, o valor atual será atualizado
+function mudando(elemento) {
+    console.log(elemento.value);
+}

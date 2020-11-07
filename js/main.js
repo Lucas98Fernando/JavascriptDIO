@@ -110,3 +110,33 @@ if (idade >= 18) {
     alert("Acesso proibido, usuário menor de idade.");
 }
 ==================== */
+
+
+/* ========== Funções ==========
+//Função para soma
+function soma(n1, n2) {
+    return n1 + n2;
+}
+
+// alert(soma(5, 10));
+
+// Função para subsstituir palavras em uma frasse qualquer
+function setReplace(texto, nome, novoNome) {
+    return texto.replace(nome, novoNome);
+}
+
+//alert(setReplace("O Javacript é bom", "bom", "maravilhoso demais !"));
+
+function validar(idade) {
+    var resultado;
+    if (idade >= 18) {
+        resultado = "Você maior de idade !";
+    } else {
+        resultado = "Deu ruim fera";
+    }
+    return resultado;
+}
+
+idade = prompt("Qual é a sua idade ?");
+alert(validar(idade));
+================================*/
